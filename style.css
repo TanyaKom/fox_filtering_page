@@ -1,0 +1,104 @@
+header {
+    text-align: center;
+    margin-top: 70px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+h1::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: #AEAEAE;
+    margin-top: 5px;
+}
+.header-title {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.header-title img {
+    z-index: -1;
+    margin-left: -80px;
+    display: block;
+    width: 45px;
+    height: 32px;
+    margin-top: 38px;
+}
+.title-end {
+    color:#fff;
+    margin-left: -45px;
+}
+button {
+    color: #FF3D00;
+    background-color: #fff;
+    border-radius: 7px;
+    border: 2px solid #FF3D00;
+    height: 54px;
+    cursor: pointer;
+    padding: 25px;
+    transition: all 0.3s ease; 
+    text-align: center;
+    line-height: 1px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 17px;
+}
+button:hover {
+    background-color: #FF3D00;
+    color:#fff;
+}
+button:active {
+    background-color: #FF3D00;
+    color:#fff;
+}
+button.active {
+    background-color: #FF3D00;
+    color:#fff;
+}
+.cards, #cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 50px 174px;
+}
+.card {
+    display: flex;
+    margin: 50px 0 0 30px;
+}
+.fox-photo {
+    width: 237px;
+    height: 160px;
+}
+h2 {
+    margin: 0;
+}
+.content {
+    flex-direction: column;
+    margin-left: 20px;
+ 
+}
+.like {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.likes-number, .link-txt {
+    color: #FF3D00;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 4px;
+}
+.likes {
+    display: flex;
+    justify-content: right;
+    margin-top: -20px;
+}
+.link-txt {
+    cursor: pointer;
+}
+hr {
+    border-color: #D9D9D9;
+}
